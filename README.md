@@ -1,6 +1,7 @@
 This is my OOP project. It is an AI-powered chatbot built using HTML, CSS, and JavaScript, the chatbot uses the Google Gemini API to generate real-time responses. The interface is clean, interactive, and equipped with advanced features like emoji integration and dynamic message rendering.
 
-**Features** < br / >
+**Features**
+
 Dynamic Chat UI: Supports user and bot messages with auto-scrolling and dynamic resizing.
 Emoji Picker: Allows users to insert emojis directly into their messages via an intuitive interface.
 Typing Indicators: Displays a "thinking" animation while the bot processes its response.
