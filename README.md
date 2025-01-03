@@ -6,31 +6,31 @@ Emoji Picker: Allows users to insert emojis directly into their messages via an 
 Typing Indicators: Displays a "thinking" animation while the bot processes its response.
 Responsive Design: Works seamlessly across desktop and mobile devices.
 
-**Languages** < br / >
+**Languages**<br/>
 HTML for structure.
 CSS for styling.
 JavaScript for interactivity and API integration.
 
-**Libraries and APIs** < br / >
+**Libraries and APIs**<br/>
 Emoji Mart: Provides a user-friendly emoji picker.
 Google Gemini API: Processes user messages and generates bot responses.
 Material Symbols and Google Fonts: Enhances visual appeal.
 
-**Tools** < br / >
+**Tools**<br/>
 Visual Studio Code for development.
 AwardSpace for web hosting.
 
-**Working** < br / >
+**Working**<br/>
 User Input: The user types a message into the chat input field.
 Dynamic UI Updates: The user's message is displayed in the chat window. The chat input area dynamically adjusts height based on text length.
 Message Processing:
 The bot displays a "thinking" animation while processing. The message is sent to the Google Gemini API for response generation.
 Response Rendering: The bot's response is fetched from the API and displayed in the chat window.
 
-**How to use?** < br / >
+**How to use?**<br/>
 Download the code and open it in VS Code, install the live server extension and click on Go Live.
 
-**Website** < br / >
+**Website**<br/>
 https://chatbots.atwebpages.com/
 
 Author: Ali Bilal Khan
