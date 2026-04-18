@@ -2,9 +2,9 @@ const chatBody = document.querySelector(".chat-body");
 const messageInput = document.querySelector(".message-input");
 const sendMessageButton = document.querySelector("#send-message");
 // https://ai.google.dev/gemini-api/docs
-const API_KEY = "AIzaSyDATw9_108gFFhPwHSe9SLh-4CVybWbKpg";
+const API_KEY = "API KEY";
 
-const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent?key=${API_KEY}`;
 
 const userData = {
     message: null
@@ -12,7 +12,7 @@ const userData = {
 
 const chatHistory = [{
     role: "model",
-    parts: [{ text: "My name is Ali Bilal & you are a chatbot I created using Google Gemini's API. I created you for my object oriented programming project. When you respond to any message, sound friendly, use emojis whenever possible and keep the answer extremely consise & short unless very necessary. Try not using special characters." }],
+    parts: [{ text: "You are a chatbot I created using Google Gemini's API. When you respond to any message, sound friendly, use emojis whenever possible and keep the answer extremely consise & short unless very necessary. Try not using special characters." }],
 }];
 
 const initialInputHeight = messageInput.scrollHeight;
